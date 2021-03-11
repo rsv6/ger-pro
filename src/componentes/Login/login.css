@@ -1,0 +1,100 @@
+.container-login{
+    width: 40vw;
+    height: 50vh;
+
+    border-radius: 10px;
+    background-color: #e1f6ff;
+    box-shadow: 5px 10px 8px #888888;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around   ;
+    align-items: center;
+}
+
+.login-titulo{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.login-titulo span{
+    color: #001AFF;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.login-input{
+    width: 80%;
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+    /* Filhos */
+    .login-input input{
+        height: 40px;
+        font-size: 15px;
+        padding-left: 10px;
+        outline: none;
+        border-radius: 8px;
+        border-color: transparent;
+        box-shadow: 5px 5px 8px #cccccc;
+    }
+
+    .login-input input::placeholder{
+        font-weight: bold;
+        color: gray;
+        opacity: 0.6; /* Firefox */
+    }
+
+    .login-input input:hover, input:focus {            
+        border-bottom: 2px solid #1c87c9;
+    }
+
+.login-botoes{
+    width: 80%;
+    height: 50px;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+    /* Filhos */
+    .btn{
+        width: 25%;
+        height: 40px;
+        border-radius: 6px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        /* Filhos */
+
+    #btnLogar{
+        background-color: #0487f3;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        /* Filhos */
+        #btnLogar:hover{
+            background-color: #0099CC;
+        }
+    
+    #btnCancelar{
+        background-color: red;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: bold;
+    }
+        /* Filhos */
+        #btnCancelar:hover{
+            background-color: rgb(255, 86, 86);
+        }
