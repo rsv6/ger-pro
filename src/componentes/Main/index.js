@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import './main.css';
-import Login from '../Login/index';
+import Header from '../Header';
+import Footer from '../Footer';
 
 const Main = () => {
     return (
-        <div>
-            <Login />
+        <div className="">
+            <Header  />
+    
+            <Footer  />
         </div>
     )
 }

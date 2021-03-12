@@ -5,7 +5,8 @@ import './login.css';
 const Login = () => {
 
     return (
-        <div className="container-login">
+        <form className="container-login">
+
             <div className="login-titulo">
                 <span>Login | GerPro</span>
             </div>
@@ -23,7 +24,7 @@ const Login = () => {
                     <span>Cancelar</span>
                 </div>
             </div>
-        </div>
+        </form>
     )
 }
 
