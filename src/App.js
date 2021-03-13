@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import MyContext from './context/MyContext';
 import Main from './componentes/Main';
-import Footer from './componentes/Footer';
 
 function App() {
 
@@ -17,8 +16,6 @@ function App() {
       tarefas, setTarefas
     }}>
       <Main />
-
-      <Footer />
     </MyContext.Provider>
   );
 }
