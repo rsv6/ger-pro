@@ -1,0 +1,32 @@
+.header-menu{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: teal; */
+}
+    /* Filhos */
+    .header-menu-link{
+        width: 80px;
+        height: 30px;
+        /* background-color: chartreuse; */
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 5px;
+        
+    }
+        /* Filhos */
+        .header-menu-link:hover{
+            border-bottom: 2px solid #1c87c9;
+            color: #FFF;
+            font-size: 24px;
+            width: 150px;
+            transition: 1s;
+        }   

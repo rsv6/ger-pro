@@ -18,9 +18,8 @@ const Main = () => {
                         <a href="/">GerPro</a>
                     </h1>
                     
-                    <nav className="container-header-menu">
-                        <Header />
-                    </nav>
+                    <Header />
+                    
                 </div>
             </div>
             <div className="container-body-pri">
