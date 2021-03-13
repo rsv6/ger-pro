@@ -11,35 +11,35 @@ const Header = () => {
 
     return (
         <Router>
-
-            <nav className="container-main">
-                <h1 className="">
-                    <a href="/">GerPro</a>
-                </h1>
-                
-                <nav className="">
+            <div className="container-header-pri">
+                <nav className="container-header">
+                    <h1 className="container-header-logo">
+                        <a href="/">GerPro</a>
+                    </h1>
                     
-                    <Link className="" to="/">Início</Link>
-                    <Link className="" to="/sobre">Sobre nós</Link>
-                    <Link className="" to="/Login">Login</Link>
+                    <nav className="container-header-menu">
+                        
+                        <Link className="header-menu-link" to="/"><span>Início</span></Link>
+                        <Link className="header-menu-link" to="/sobre"><span>Sobre nós</span></Link>
+                        <Link className="header-menu-link" to="/Login"><span>Login</span></Link>
+                    </nav>
                 </nav>
-            </nav>
+            </div>
 
-            <Switch>
-                <Route path="/" exact>
-                    <Home />
-                </Route>
-                <Route path="/login">
-                    <Login />
-                </Route>
-                <Route path="/sobre">
-                    <Sobre />
-                </Route>
-            </Switch>
-
-
+                <div className="container-page">
+                    <Switch>
+                        <Route path="/" exact>
+                            <Home />
+                        </Route>
+                        <Route path="/login">
+                            <Login />
+                        </Route>
+                        <Route path="/sobre">
+                            <Sobre />
+                        </Route>
+                    </Switch>
+                </div>
         </Router>
-
     );
 }
 

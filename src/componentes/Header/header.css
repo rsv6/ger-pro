@@ -1,10 +1,67 @@
-.container-main{
+.container-header-pri{
     width: 80vw;
-    height: 10vh;
-    background-color: rgb(221, 158, 158);
+    background-color: #004a6d;
+}
+
+.container-header{
+    width: 80vw;
+    height: 15vh;
+    background-color: #004a6d;
     /* margin: 0 auto; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
 }
+    /* Filhos */
+    .container-header-logo a{
+        padding-left: 10px;
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    .container-header-logo a:hover{
+        color: rgb(190, 190, 190);
+    }
+
+    .container-header-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        /* padding-right: 10px; */
+        /* background-color: darkkhaki; */
+    }
+    /* Filho */
+    .header-menu-link{
+        margin: 0 0 0 10px;
+        padding: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #FFF;
+        /* width: 80px;
+        height: 30px;
+        text-align: center; */
+    }
+        .header-menu-link span{
+            color: #FFF;
+            font-size: 18px;
+        }
+
+        .header-menu-link span:hover{
+            color: rgb(196, 196, 196);
+        }
+
+
+.container-page{
+    width: 80vw;
+    height: 500px;
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
