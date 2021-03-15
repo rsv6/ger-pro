@@ -1,4 +1,4 @@
-.container-home-pri{
+.container-usergerpro-pri{
     width: 80vw;
     height: 450px;
 
@@ -6,5 +6,5 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(148, 105, 248);
 }

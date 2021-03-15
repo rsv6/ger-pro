@@ -4,7 +4,13 @@ export const ContextToken = createContext();
 
 export default function ContextLogin({ children }){
 
-    const [ loginToken, setLoginToken ] = useState(false);
+    const [ loginToken, setLoginToken ] = useState([
+        {
+            login: "",
+            senha: "",
+            token: false
+        }
+    ]);
 
     return (
         <ContextToken.Provider value={{

@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ContextToken } from '../../context/ContextLogin';
 
+
+import verifyLogin from '../../middle/verifyLogin';
 import './login.css';
 
 const Login = () => {
+
+    
 
     return (
         <form className="container-login">
@@ -12,12 +17,12 @@ const Login = () => {
             </div>
 
             <div className="login-input">
-                <input type="text" placeholder="Digite seu login" autoComplete="true" />
-                <input type="password" placeholder="Digite sua senha" autoComplete="true" />
+                <input type="text" placeholder="Digite seu login" name="login" autoComplete="true" />
+                <input type="password" placeholder="Digite sua senha" name="senha" autoComplete="true" />
             </div>
 
             <div className="login-botoes">
-                <div onClick={() => {alert("Logado!")}} className="btn" id="btnLogar">
+                <div onClick={() => {}} className="btn" id="btnLogar">
                     <span>Logar</span>    
                 </div>
                 <div onClick={() => {alert("Cancelado!")}} className="btn" id="btnCancelar">

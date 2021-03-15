@@ -11,7 +11,7 @@ export default function VerificaToken(){
 
     return (
         <div>
-            {loginToken
+            {loginToken.token === true
                 ? <UserGerPro />
                 : <Erro />  
             }
