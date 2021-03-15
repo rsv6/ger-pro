@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Login from '../../pages/Login';
 import Home from '../../pages/Home';
 import Sobre from '../../pages/Sobre';
+import GerPro from '../../pages/GerPro';
 
 export default function Body(){
 
@@ -17,6 +18,9 @@ export default function Body(){
             </Route>
             <Route path="/sobre">
                 <Sobre />
+            </Route>
+            <Route path="/gerpro">
+                <GerPro />
             </Route>
         </Switch>
     )

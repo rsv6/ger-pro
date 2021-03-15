@@ -6,9 +6,9 @@ import Main from './componentes/Main';
 function App() {
 
   return (
-    <MyContext.Provider >
+    <MyContext>
       <Main />
-    </MyContext.Provider>
+    </MyContext>
   );
 }
 
