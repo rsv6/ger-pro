@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
 
-    background-color: #ff9b05
+    /* background-color: #ff9b05 */
+    background-color: #dcecff;
 }
     /* Filhos */
     .footer{
