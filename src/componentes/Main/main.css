@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: center;
     align-self:center;
-    /* background-color: #ff9b05; */
-    background-color: #dcecff;
+    background-color: #ff9b05;
+    /* background-color: #dcecff; */
 }
     /* Filhos */
     .container-header{
@@ -22,8 +22,8 @@
         }
 
         .container-header-logo a:hover{
-            /* color: #FFF; */
-            transition: 1s;
+            color: #FFF;
+            transition: .5s;
             text-shadow: 4px 4px 10px #3a3a3a;
         }
         
@@ -42,6 +42,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* background-color: #ff9b05; */
-    background-color: #dcecff;
+    background-color: #ff9b05;
+    /* background-color: #dcecff; */
 }
