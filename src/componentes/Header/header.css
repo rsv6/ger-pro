@@ -1,17 +1,56 @@
-.header-menu{
-    width: 250px;
-    height: 40px;
+.header-menu {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+
+  
+  /* background-color: blueviolet; */
+}
+
+.header-menu-link {
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  font-weight: bold;  
+  border-radius: 5px;
+  font-size: larger;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #FFFFFFFF;
+  /* background-color: rgb(236, 165, 165); */
+}
+
+.header-menu-link:hover {
+  border-bottom: 2px solid #FFFFFFFF;
+
+  color: #3B413C;
+
+  font-size: x-large;
+  transition: .3s;
+}
+
+
+
+
+
+/* .header-menu{
+    width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* background-color: teal; */
+
 }
-    /* Filhos */
+
     .header-menu-link{
         width: 80px;
         height: 30px;
-        /* background-color: chartreuse; */
+
         text-decoration: none;
         display: flex;
         flex-direction: column;
@@ -22,11 +61,10 @@
         border-radius: 5px;
         
     }
-        /* Filhos */
         .header-menu-link:hover{
             border-bottom: 2px solid #1c87c9;
             color: #FFF;
             font-size: 24px;
             width: 150px;
             transition: .5s;
-        }   
+        }    */
